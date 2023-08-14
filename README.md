@@ -50,6 +50,9 @@ You are required to develop a RESTful API that allows users to create, retrieve,
 - Request Body: JSON object representing the user to be created. 
 
 
+## For Example: 
+
+
 
 
 
@@ -68,6 +71,10 @@ Retrieve a user by ID.
 - Code: 200 OK
 - Content: JSON object representing the user.
 
+## For Example: 
+
+
+
 
 
 <img width="837" alt="g" src="https://github.com/Syedateeq160/user-crud/assets/32579549/7458e0ff-b756-4822-a2b3-2f533e7b304f">
@@ -79,6 +86,11 @@ Retrieve a user by ID.
 - Method: PUT
 - URL Parameters: id (number) - The ID of the user to be updated.
 - Request Body: JSON object representing the updated user properties. 
+
+
+## For Example: 
+
+
 
 
 
@@ -93,13 +105,17 @@ Retrieve a user by ID.
 - Method: DELETE
 - URL Parameters: id (number) - The ID of the user to be deleted.
 
-##Success Response:
+## Success Response:
 
 - Code: 204 No Content
 
-##Error Response:
+## Error Response:
 - Code: 400 Bad Request
 - Content: JSON object with an error message
+
+
+## For Example: 
+
 
 
 
