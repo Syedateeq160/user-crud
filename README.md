@@ -12,6 +12,19 @@ You are required to develop a RESTful API that allows users to create, retrieve,
 
 1. The API should be well documented with clear instructions on how to run the code and test the API.
 
+## Stack
+
+- NodeJS
+- Express.js
+- TypeScript
+- PostgreSQL
+
+## Getting Started
+
+- Clone or download the project
+- Run npm i in the project root folder
+- Run npm run start
+
 
 
 ## Create User
