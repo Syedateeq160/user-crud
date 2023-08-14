@@ -45,9 +45,9 @@ You are required to develop a RESTful API that allows users to create, retrieve,
 
 ## Create User
 
-URL: /users
-Method: POST
-Request Body: JSON object representing the user to be created. 
+- URL: /users
+- Method: POST
+- Request Body: JSON object representing the user to be created. 
 
 
 
@@ -60,12 +60,13 @@ Request Body: JSON object representing the user to be created.
 ## Get User
 Retrieve a user by ID.
 
-URL: /users/:id
-Method: GET
-URL Parameters: id (number) - The ID of the user to retrieve.
-Success Response:
-Code: 200 OK
-Content: JSON object representing the user.
+- URL: /users/:id
+- Method: GET
+- URL Parameters: id (number) - The ID of the user to retrieve.
+
+##Success Response:
+- Code: 200 OK
+- Content: JSON object representing the user.
 
 
 
@@ -74,10 +75,10 @@ Content: JSON object representing the user.
 
 ## Update User
 
-URL: /users/:id
-Method: PUT
-URL Parameters: id (number) - The ID of the user to be updated.
-Request Body: JSON object representing the updated user properties. 
+- URL: /users/:id
+- Method: PUT
+- URL Parameters: id (number) - The ID of the user to be updated.
+- Request Body: JSON object representing the updated user properties. 
 
 
 
@@ -88,14 +89,17 @@ Request Body: JSON object representing the updated user properties.
 
 ###Delete an existing user by ID.
 
-URL: /users/:id
-Method: DELETE
-URL Parameters: id (number) - The ID of the user to be deleted.
-Success Response:
-Code: 204 No Content
-Error Response:
-Code: 400 Bad Request
-Content: JSON object with an error message
+- URL: /users/:id
+- Method: DELETE
+- URL Parameters: id (number) - The ID of the user to be deleted.
+
+##Success Response:
+
+- Code: 204 No Content
+
+##Error Response:
+- Code: 400 Bad Request
+- Content: JSON object with an error message
 
 
 
