@@ -85,9 +85,9 @@ Retrieve a user by ID.
 
 <img width="845" alt="u" src="https://github.com/Syedateeq160/user-crud/assets/32579549/8eee37d0-dbea-4fd5-91bc-ef84afe56e38">
 
-##Delete User
+## Delete User
 
-###Delete an existing user by ID.
+### Delete an existing user by ID.
 
 - URL: /users/:id
 - Method: DELETE
