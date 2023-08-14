@@ -11,3 +11,118 @@ You are required to develop a RESTful API that allows users to create, retrieve,
 
 
 1. The API should be well documented with clear instructions on how to run the code and test the API.
+
+## Stack
+
+- NodeJS
+- Express.js
+- TypeScript
+- TypeORM 
+- PostgreSQL
+
+
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm (Node Package Manager)
+- PostgreSQL (or any other compatible relational database)
+
+## Getting Started
+
+- Clone or download the project
+
+## Set up your database:
+
+- Create a PostgreSQL database named userdb.
+- Update the database connection configuration in src/ormconfig.json to match your database settings.
+
+
+- Navigate to the project directory: and run npm i in the project root folder
+- Run npm run start 
+
+
+
+## Create User
+
+- URL: /users
+- Method: POST
+- Request Body: JSON object representing the user to be created. 
+
+
+## For Example: 
+
+
+
+
+
+<img width="848" alt="c" src="https://github.com/Syedateeq160/user-crud/assets/32579549/ec616ad6-fc60-4443-a131-a4175d18e041">
+
+
+
+## Get User
+Retrieve a user by ID.
+
+- URL: /users/:id
+- Method: GET
+- URL Parameters: id (number) - The ID of the user to retrieve.
+
+## Success Response:
+- Code: 200 OK
+- Content: JSON object representing the user.
+
+## For Example: 
+
+
+
+
+
+<img width="837" alt="g" src="https://github.com/Syedateeq160/user-crud/assets/32579549/7458e0ff-b756-4822-a2b3-2f533e7b304f">
+
+
+## Update User
+
+- URL: /users/:id
+- Method: PUT
+- URL Parameters: id (number) - The ID of the user to be updated.
+- Request Body: JSON object representing the updated user properties. 
+
+
+## For Example: 
+
+
+
+
+
+
+<img width="845" alt="u" src="https://github.com/Syedateeq160/user-crud/assets/32579549/8eee37d0-dbea-4fd5-91bc-ef84afe56e38">
+
+## Delete User
+
+- Delete an existing user by ID.
+- URL: /users/:id
+- Method: DELETE
+- URL Parameters: id (number) - The ID of the user to be deleted.
+
+## Success Response:
+
+- Code: 204 No User
+
+## Error Response:
+- Code: 400 Bad Request
+- User: JSON object with an error message
+
+
+## For Example: 
+
+
+
+
+
+
+<img width="839" alt="d" src="https://github.com/Syedateeq160/user-crud/assets/32579549/1a695fb0-4906-4ca0-81d9-9780c34dd446">
+
+
+
+
+## Ateeq Syed 2023,  12:43AM PKT
