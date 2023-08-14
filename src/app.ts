@@ -12,7 +12,6 @@ app.put('/users/:id', updateUser);
 app.delete('/users/:id', deleteUser);
 app.get('/users/:id', getUser);
 
-// Implement other routes for CRUD operations
 
 app.listen(3000, async () => {
   console.log('Server is running on port 3000');
