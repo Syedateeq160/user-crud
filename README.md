@@ -14,22 +14,30 @@ You are required to develop a RESTful API that allows users to create, retrieve,
 
 
 
-##Create User
+## Create User
+
+
 <img width="848" alt="c" src="https://github.com/Syedateeq160/user-crud/assets/32579549/ec616ad6-fc60-4443-a131-a4175d18e041">
 
 
 
-##Get User
+## Get User
 
 
 <img width="837" alt="g" src="https://github.com/Syedateeq160/user-crud/assets/32579549/7458e0ff-b756-4822-a2b3-2f533e7b304f">
 
 
-##Update User
+## Update User
+
+
+
 
 <img width="845" alt="u" src="https://github.com/Syedateeq160/user-crud/assets/32579549/8eee37d0-dbea-4fd5-91bc-ef84afe56e38">
 
 ##Delete User
+
+
+
 <img width="839" alt="d" src="https://github.com/Syedateeq160/user-crud/assets/32579549/1a695fb0-4906-4ca0-81d9-9780c34dd446">
 
 
