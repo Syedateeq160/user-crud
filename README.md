@@ -64,7 +64,7 @@ Retrieve a user by ID.
 - Method: GET
 - URL Parameters: id (number) - The ID of the user to retrieve.
 
-##Success Response:
+## Success Response:
 - Code: 200 OK
 - Content: JSON object representing the user.
 
@@ -87,7 +87,7 @@ Retrieve a user by ID.
 
 ## Delete User
 
-### Delete an existing user by ID.
+## Delete an existing user by ID.
 
 - URL: /users/:id
 - Method: DELETE
