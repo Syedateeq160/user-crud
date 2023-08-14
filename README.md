@@ -99,19 +99,18 @@ Retrieve a user by ID.
 
 ## Delete User
 
-## Delete an existing user by ID.
-
+- Delete an existing user by ID.
 - URL: /users/:id
 - Method: DELETE
 - URL Parameters: id (number) - The ID of the user to be deleted.
 
 ## Success Response:
 
-- Code: 204 No Content
+- Code: 204 No User
 
 ## Error Response:
 - Code: 400 Bad Request
-- Content: JSON object with an error message
+- User: JSON object with an error message
 
 
 ## For Example: 
@@ -124,3 +123,6 @@ Retrieve a user by ID.
 <img width="839" alt="d" src="https://github.com/Syedateeq160/user-crud/assets/32579549/1a695fb0-4906-4ca0-81d9-9780c34dd446">
 
 
+
+
+## Ateeq Syed 2023,  12:43AM PKT
